@@ -184,6 +184,8 @@ p {
   margin-bottom: 2%;
 }
 .home nav a {
+  text-decoration: none;
+  color: grey;
   margin: 1% 30%;
   width: 100%;
   font-size: 1.6rem;
@@ -197,6 +199,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  /* contact down below */
 }
 .home .intro .main-header {
   border-radius: 10px;
@@ -315,4 +320,34 @@ footer {
     background-color: #F6F6F6;
     color: pink;
   }
+}
+.home .textarea-and-picture {
+  display: flex;
+  width: 100%;
+}
+.home .textarea-and-picture {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #F6F7F8;
+}
+.home h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 3%;
+}
+.home h5 {
+  margin: 3%;
+}
+.home .text-area {
+  padding: 3% 0;
+  width: 40%;
+  font-size: 1.4rem;
+}
+.home .label {
+  font-size: 5rem;
+}
+.home .team-work {
+  width: 40%;
 }
