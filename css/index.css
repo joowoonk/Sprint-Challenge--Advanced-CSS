@@ -1,3 +1,6 @@
+.bordered {
+  border-top: 1px solid #dee2e6;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,16 +163,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .home h1 {
   font-size: 3rem;
   text-align: center;
@@ -191,6 +184,16 @@ footer {
   margin: 1% 30%;
   width: 100%;
   font-size: 1.6rem;
+}
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home .intro .main-header {
   border-radius: 10px;
@@ -236,10 +239,10 @@ footer {
 }
 .home .walk {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
   padding: 30px 30px;
   display: flex;
   justify-content: center;
+  border-top: 1px solid #dee2e6;
 }
 .home .walk .walk-text {
   width: 90%;
@@ -297,16 +300,16 @@ footer {
     margin: 0 auto;
     padding: 5% 0;
     display: block;
-    background-color: black;
+    background-color: pink;
     cursor: pointer;
     width: 370px;
     font-size: 2rem;
     border-radius: 5px;
-    color: #fff;
+    color: black;
     text-align: center;
   }
   .home .walk .walk-text .btn:hover {
-    background-color: blue;
-    color: black;
+    background-color: #F6F6F6;
+    color: pink;
   }
 }

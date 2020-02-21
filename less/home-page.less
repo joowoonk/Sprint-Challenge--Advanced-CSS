@@ -1,31 +1,7 @@
 // Home Content
 
 .home {
-  h1{
-    font-size: 3rem;
-    text-align: center;
-    margin: 3% 1%;
-  }
-  .top-section{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    // width: 100%;
-    margin: 0 auto;
-  }
-  nav{
-    display: flex;
-    justify-content: space-evenly;
-    width: 10%;
-    margin-bottom: 2%;
 
-    a{
-      margin: 1% 30%;
-      width: 100%;
-      font-size: 1.6rem;
-
-    }
-  }
   .intro {
     .main-header{
       border-radius: 10px;
@@ -81,11 +57,11 @@
 
     .walk {
       margin-top: 60px;
-      border-top: 1px solid @main-border-color;
+      
       padding: 30px 30px;
       display: flex;
       justify-content: center;
-
+      .bordered();
       .walk-text {
         width: 90%;
 
@@ -133,7 +109,7 @@
           .btn{
             margin: 0 auto;
             padding: 5% 0;
-            .custom-btn(@width: 370px)
+            .custom-btn2(@width: 370px)
           }
         }
         padding: 3% 3% 3% 0;
