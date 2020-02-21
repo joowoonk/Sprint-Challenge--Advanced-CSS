@@ -185,12 +185,16 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 10%;
+  margin-bottom: 2%;
 }
 .home nav a {
   margin: 1% 30%;
   width: 100%;
   font-size: 1.6rem;
-  padding: 0 20%;
+}
+.home .intro .main-header {
+  border-radius: 10px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -206,8 +210,20 @@ footer {
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images img {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 100%;
+  }
 }
 .home .visit-planets {
   padding: 15px;
@@ -221,15 +237,16 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 30px 30px;
   display: flex;
   justify-content: center;
 }
 .home .walk .walk-text {
-  width: 50%;
+  width: 90%;
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
@@ -243,7 +260,6 @@ footer {
   border-radius: 5px;
   color: #fff;
   text-align: center;
-  padding: 2% 0;
 }
 .home .walk .walk-text .btn:hover {
   background-color: blue;
@@ -257,4 +273,39 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3% 3% 3% 0;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+  }
+  .home .walk .walk-img .astro {
+    width: 100%;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    order: 1;
+    margin: 3% 3%;
+  }
+  .home .walk .walk-text .btn {
+    margin: 0 auto;
+    padding: 5% 0;
+    display: block;
+    background-color: black;
+    cursor: pointer;
+    width: 370px;
+    font-size: 2rem;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+  }
+  .home .walk .walk-text .btn:hover {
+    background-color: blue;
+    color: black;
+  }
 }
