@@ -345,6 +345,9 @@ footer {
   width: 40%;
   font-size: 1.4rem;
 }
+.home span {
+  color: red;
+}
 .home .label {
   font-size: 5rem;
 }
