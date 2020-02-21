@@ -325,32 +325,33 @@ footer {
   display: flex;
   width: 100%;
 }
-.home .textarea-and-picture {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: #F6F7F8;
-}
 .home h4 {
   text-align: center;
   font-size: 2rem;
   margin: 3%;
 }
-.home h5 {
-  margin: 3%;
+.home .textarea-and-picture {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #F6F7F8;
 }
-.home .text-area {
+.home .textarea-and-picture .text-area {
   padding: 3% 0;
-  width: 40%;
+  width: 30%;
   font-size: 1.4rem;
 }
-.home span {
+.home .textarea-and-picture .text-area h5 {
+  margin: 3%;
+}
+.home .textarea-and-picture .text-area span {
   color: red;
 }
-.home .label {
+.home .textarea-and-picture .text-area .label {
   font-size: 5rem;
 }
-.home .team-work {
+.home .textarea-and-picture .team-work {
   width: 40%;
 }
